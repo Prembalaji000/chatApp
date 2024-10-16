@@ -104,8 +104,8 @@ class MainActivity : FragmentActivity() {
     }
 
     private fun init(){
-        val appID = 894693484L
-        val appSign = "8d893eb6d92a23fc022a4c1e22b086f6ec7b9a3d803834d39f0be30ca084e986"
+        val appID = 0L
+        val appSign = ""
         ZIMKit.initWith(application, appID, appSign, ZIMKitConfig())
         ZIMKit.initNotifications()
     }
